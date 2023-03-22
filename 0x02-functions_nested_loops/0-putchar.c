@@ -1,4 +1,4 @@
-#include "My_Functions.h"
+#include "main.h"
 
 /**
  * main - Prints Holberton as a message.
