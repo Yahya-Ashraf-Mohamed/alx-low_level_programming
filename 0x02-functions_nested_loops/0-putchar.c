@@ -1,5 +1,10 @@
 #include "My_Functions.h"
 
+/**
+ * main - Prints Holberton as a message.
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {
