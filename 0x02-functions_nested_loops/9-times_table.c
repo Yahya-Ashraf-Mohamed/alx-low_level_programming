@@ -1,5 +1,4 @@
-#include "My_Functions.h"
-
+#include "main.h"
 
 void times_table(void)
 {
