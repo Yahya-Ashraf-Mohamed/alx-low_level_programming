@@ -5,19 +5,18 @@
  * @n: input integer.
  * Return: no return.
  */
-
-void print_number(int Printed_Number)
+void print_number(int n)
 {
 	unsigned int m, d, count;
 
-	if (Printed_Number < 0)
+	if (n < 0)
 	{
 		_putchar(45);
-		m = Printed_Number * -1;
+		m = n * -1;
 	}
 	else
 	{
-		m = Printed_Number;
+		m = n;
 	}
 
 	d = m;
@@ -34,4 +33,3 @@ void print_number(int Printed_Number)
 		_putchar(((m / count) % 10) + 48);
 	}
 }
-
